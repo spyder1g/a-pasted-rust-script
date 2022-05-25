@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="imgui-docking\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-docking\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-docking\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-docking\imgui_impl_dx9.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-docking\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-docking\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Main\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Features.cpp">
+      <Filter>Script\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="RecoilTables.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="Script.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="Base64.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imgui-docking\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imgui_impl_dx9.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.hpp">
+      <Filter>Main\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="XorStr.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="byte.hpp">
+      <Filter>Script\Icons</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug.hpp">
+      <Filter>Script\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Features.hpp">
+      <Filter>Script\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="RecoilTables.hpp">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="Script.hpp">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.hpp">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="Base64.hpp">
+      <Filter>API</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{8cf77124-bebc-471d-acac-8b9b1ffc2a66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{9d2d9690-8aac-4fd7-b0ea-258b3e2ebcc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Menu">
+      <UniqueIdentifier>{711aa7a7-ffbf-4f38-a316-09793742b1aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{d708a148-c015-4076-b9a0-b3e053719ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Features">
+      <UniqueIdentifier>{8cba5756-796f-4108-a642-8661e35da06f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Icons">
+      <UniqueIdentifier>{dbdf0af9-dac1-40e2-900d-bf87f5006826}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API">
+      <UniqueIdentifier>{c64a7677-3c53-4c25-90c5-6811527bd886}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
